@@ -1,3 +1,15 @@
+# Office setup 
+Устанавливаем Office для дома 2024 -> https://4pda.to/stat/go?u=https%3A%2F%2Fofficecdn.microsoft.com%2Fdb%2F492350f6-3a01-4f97-b9c0-c7c6ddf67d60%2Fmedia%2Fru-RU%2FHome2024Retail.img&e=136508002
+Запускаем этот фикс -> https://4pda.to/stat/go?u=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2FF%2F2%2F2%2FF22D5FDB-59CD-4275-8C95-1BE17BF70B21%2Fcssemerg97275.diagcab&e=136508002
+Заходим в любое приложение офиса и логинимся своим майкрософт аккаунтом.
+На сайте майкрософт в подписках появляется приобретенный офис, на почту приходит ключ.
+
+Фикс восстанавливает предварительно установленную лицензию Office,
+которая была удалена после переустановки или клонирования Windows.
+
+(с) https://4pda.to/forum/index.php?showtopic=1103147&st=460#entry136508002
+
+
 # Cheat Sheet and FAQ for Xiaomi Redmibook Pro 14/16 2024 with Intel Ultra 125H/155H
 
 ## There are two versions of this cheat sheet: [English version](#english-version) and [Русская версия](#русская-версия)
@@ -188,7 +200,8 @@ When installing Windows, delete all partitions on the disk.
 #### Drivers
 
 1. You can install all drivers using the **Windows Update Center**
-2. Or import drivers using `pnputil`, for this:
+   - Windows Update Center requires internet connection. One of the possible ways is to use your mobile phone in modem mode. For instance (example for Samsung S23 Ultra, Android v.14): Settings -> Connections -> Mobile Access Point & Modem -> USB-Modem. Use USB cable to connect smart-phone to the laptop.
+3. Or import drivers using `pnputil`, for this:
    - [Download](https://drive.google.com/drive/folders/1mNBsWjZ1jstHsc_fp29fs57bh0BqbIxR) and unpack the driver archive
    - Import drivers: `pnputil /add-driver C:\drivers\*.inf /subdirs /install`
 
@@ -485,6 +498,7 @@ Boot меню - `F12`
 #### Драйверы
 
 1. Вы можете установить все драйверы с помощью **Центра обновлений Windows**
+   - Windows Update Center требует подключения к интернету. Один из возможных путей - это использовать ваш мобильный телефон в режиме модема. Включается так (пример для Samsung S23 Ultra, Android v.14): Настройки -> Подключения -> Мобильная точка доступа и модем -> USB-модем. Сам телефон подключаете к ноутбуку USB-кабелем.
 2. Или импортировать драйверы с помощью `pnputil`, для этого:
    - [Скачайте](https://drive.google.com/drive/folders/1mNBsWjZ1jstHsc_fp29fs57bh0BqbIxR) и распакуйте архив драйверов
    - Импортируйте драйверы: `pnputil /add-driver C:\drivers\*.inf /subdirs /install`
